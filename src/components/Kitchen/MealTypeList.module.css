@@ -1,0 +1,17 @@
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  overflow: scroll;
+}
+.list-container li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li.active {
+  cursor: pointer;
+  background-color: orange;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  color: white;
+}

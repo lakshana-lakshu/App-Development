@@ -1,0 +1,19 @@
+.menu-list {
+  padding: 0 1rem;
+  margin: 0.5rem auto;
+}
+
+@media (min-width: 1110px) {
+  .menu-list {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1700px) {
+  .menu-list {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    justify-content: space-around;
+  }
+}

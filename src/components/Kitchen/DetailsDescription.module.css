@@ -1,0 +1,45 @@
+.about {
+  width: 60vw;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 20vw;
+  background-color: white;
+  padding: 1.5em;
+}
+.about h3 {
+  text-align: center;
+}
+.about-container {
+  position: relative;
+}
+
+.background-image {
+  width: 100vw;
+  height: 80vh;
+}
+
+.main {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.edit {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+@media (min-width: 1110px) {
+  .about {
+    width: 40vw;
+    left: 30vw;
+  }
+}

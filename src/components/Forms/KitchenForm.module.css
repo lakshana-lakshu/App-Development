@@ -1,0 +1,13 @@
+.form {
+  padding: 2rem;
+}
+
+.selection {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.1rem 0;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  font-size: medium;
+  text-align: center;
+}
